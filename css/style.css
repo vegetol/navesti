@@ -1,0 +1,136 @@
+html,
+body,
+div,
+form,
+fieldset,
+legend,
+label {
+  margin: 0;
+  padding: 0;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+th,
+td {
+  text-align: left;
+  vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+th,
+td,
+caption {
+  font-weight: normal;
+}
+img {
+  border: 0;
+}
+.clearfix {
+  *zoom: 1;
+}
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+.clearfix:after {
+  clear: both;
+}
+/*
+81B3B2 mod
+4C4C4C sed
+D8D3BF zlut
+D47E5B oran
+4B4E57 cern ?
+23548C mode
+D25857 cer
+ABC4C0 zel
+D98873 oran*/
+@font-face {
+  font-family: 'Conv_Gotham-Book';
+  src: url('../fonts/Gotham-Book.eot');
+  src: url('../fonts/Gotham-Book.woff') format('woff'), url('../fonts/Gotham-Book.ttf') format('truetype'), url('../fonts/Gotham-Book.svg') format('svg');
+}
+@font-face {
+  font-family: 'Conv_Gotham-Light';
+  src: url('../fonts/Gotham-Light.eot');
+  src: url('../fonts/Gotham-Light.woff') format('woff'), url('../fonts/Gotham-Light.ttf') format('truetype'), url('../fonts/Gotham-Light.svg') format('svg');
+}
+.span100,
+.span25,
+.span50,
+.span75,
+.span33,
+.span66 {
+  float: left;
+  padding: 0;
+  margin: 0;
+}
+.span100 {
+  width: 100%;
+}
+.span25 {
+  width: 25%;
+}
+.span50 {
+  width: 50%;
+}
+.span75 {
+  width: 75%;
+}
+.span33 {
+  width: 33.33%;
+}
+.span66 {
+  width: 66.66%;
+}
+.well {
+  margin: 5px;
+  padding: 5px;
+}
+.well > p {
+  margin: 5px 0;
+}
+html {
+  height: 100%;
+}
+body {
+  font-family: "Conv_Gotham-Light", Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  -webkit-font-smoothing: antialiased;
+  background: black;
+  height: 100%;
+}
+.line {
+  background: gray;
+}
+.line .letter {
+  height: 100%;
+  float: left;
+  position: relative;
+}
+.line .letter:last-of-type {
+  background: green;
+}
+.line .letter:first-of-type {
+  background: darkred;
+}
+.line .letter .wrapper {
+  background: black;
+  position: absolute;
+  top: 5px;
+  bottom: 5px;
+  left: 5px;
+  right: 5px;
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+}

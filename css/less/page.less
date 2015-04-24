@@ -1,0 +1,37 @@
+html {
+  height: 100%;
+}
+
+body {
+    .font-light(14px);
+    -webkit-font-smoothing: antialiased;
+    background: black;
+    height: 100%;
+}
+
+.line {
+  background: gray;
+  .letter {
+    height: 100%;
+    float: left;
+    position: relative;
+    &:last-of-type {
+      background: green;
+    }
+    &:first-of-type {
+      background: darkred;
+    }
+    .wrapper {
+      background: black;
+      position: absolute;
+      top: 5px;
+      bottom: 5px;
+      left: 5px;
+      right: 5px;
+      text-align: center;
+      color: white;
+      text-transform: uppercase;
+      font-weight: bold;
+    }
+  }
+}
